@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.sky{
+    width: 100vw;
+    height: 35vh;
+    background: lightblue
+}
+.grass{
+    width: 100vw;
+    height: 30vh;
+    background: seagreen;
+}
+.road{
+    width: 100vw;
+    height: 30vh;
+    background: rgb(65, 63, 63);
+    border-top: 5px solid gray;
+}
+.lines{
+    height: o;
+    width: 100vw;
+    border: 5px dashed white;
+    position: absolute;
+    top: 85%;
+}
+img{
+    position: absolute;
+    top: 390px;
+    animation-name: drive;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+    animation-timing-function: linear;/*timing function */
+}
+@keyframes drive{
+    from{transform: translateX(-200px)}
+    to{transform: translateX(1400px)}
+}
